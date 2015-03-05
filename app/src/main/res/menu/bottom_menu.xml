@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bottomBarItemOne"
+        android:icon="@mipmap/ic_send_main"
+        android:orderInCategory="1"
+        android:title="ارسال کد" />
+    <item
+        android:id="@+id/bottomBarItemOne1"
+        android:icon="@mipmap/ic_news"
+        android:orderInCategory="2"
+        android:title="اخبار" />
+    <!--<item
+        android:id="@+id/bottomBarItemOne2"
+        android:icon="@mipmap/ic_calender"
+        android:orderInCategory="0"
+        android:title="تقویم" />-->
+    <item
+        android:id="@+id/bottomBarItemOne3"
+        android:icon="@mipmap/ic_learn"
+        android:orderInCategory="3"
+        android:title="آموزش" />
+    <!--<item
+        android:id="@+id/bottomBarItemOne4"
+        android:icon="@mipmap/ic_faq"
+        android:orderInCategory="4"
+        android:title="سوالات" />-->
+
+</menu>

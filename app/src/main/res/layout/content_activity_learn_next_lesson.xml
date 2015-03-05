@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/btnNextCourse"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:background="@color/colorAccent"
+    android:layout_gravity="bottom"
+    android:layout_height="50dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtNextCourse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="آموزش بعدی"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginRight="15dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"/>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="15dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_next_course"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

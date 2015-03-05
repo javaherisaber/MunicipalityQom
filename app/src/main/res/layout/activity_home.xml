@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:id="@+id/mycoordinator"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ActivityHome"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStart="0dp"
+            app:layout_collapseMode="pin"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <ImageView
+                    android:id="@+id/btnSetting"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:padding="8dp"
+                    android:background="@drawable/background_action_selector"
+                    android:layout_alignParentLeft="true"
+                    android:clickable="true"
+                    android:src="@drawable/ic_setting_24dp"/>
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:padding="8dp"
+                    android:background="@drawable/background_action_selector"
+                    android:layout_toRightOf="@id/btnSetting"
+                    android:clickable="true"
+                    android:src="@drawable/ic_about_24dp"/>
+
+
+                <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/counterPanel"
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/background_action_selector"
+                    android:layout_alignParentRight="true"
+                    android:clickable="true"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/btnMails"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_close_email"/>
+
+                    <TextView
+                        android:id="@+id/txtMailCount"
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:layout_margin="3dp"
+                        android:layout_gravity="left|top"
+                        android:background="@drawable/background_purchase_count"
+                        android:text="1"
+                        android:gravity="center"
+                        android:textSize="11sp"
+                        android:layout_centerInParent="true"
+                        android:textColor="@color/colorPrimary" />
+
+                </FrameLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:text="@string/toolbar_title"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/toolbar_title" />
+            </RelativeLayout>
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <include layout="@layout/content_activity_home" />
+
+
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <!-- Your loooong scrolling content here -->
+<ir.highteam.shahrdari.qom.view.NonSwipeViewPager android:id="@+id/viewpager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="40dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" />
+
+
+

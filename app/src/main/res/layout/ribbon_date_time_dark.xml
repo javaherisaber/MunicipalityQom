@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+        android:id="@+id/imgCalender"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@mipmap/ic_calender_dark"
+        android:layout_marginRight="10dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:id="@id/txtDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textColor="#474747"
+        android:textSize="16sp"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@id/imgCalender"
+        android:text="1395/04/03"/>
+
+
+    <ImageView
+        android:id="@+id/imgTimer"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@mipmap/ic_time_dark"
+        android:layout_marginRight="10dp"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/txtTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textColor="#474747"
+        android:textSize="16sp"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@id/imgTimer"
+        android:text="19:20"/>
+
+    <TextView
+        android:id="@+id/txtDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+</RelativeLayout>
+

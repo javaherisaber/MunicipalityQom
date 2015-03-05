@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">شهرداری قم</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_activty_send_code">ActivtySendCode</string>
+    <string name="title_activity_activity_news">ActivityNews</string>
+    <string name="title_activity_activity_scheduale_week">ActivitySchedualeWeek</string>
+    <string name="title_activity_activity_home">ActivityHome</string>
+
+    <string name="title_activity_activity_learn">Ac</string>
+    <string name="title_activity_activity_message">صندوق پیام</string>
+
+    <string name="toolbar_title">شهرداری قم</string>
+</resources>
